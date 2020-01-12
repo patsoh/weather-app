@@ -35,6 +35,7 @@ export const GlobalStyles = createGlobalStyle<{ isSidebarOpen: boolean }>`
 
   html {
     height: 100vh;
+    overflow-y: scroll;
   }
 
   #root {
